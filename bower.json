@@ -1,6 +1,6 @@
 {
   "name": "text-angular-iframe",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "main": ["./src/textAngular.js", "./src/textAngular-sanitize.js", "./src/textAngularSetup.js", "./src/textAngular.css", "../rangy/rangy-selectionsaverestore.js"],
   "description": "A radically powerful Text-Editor/Wysiwyg editor for Angular.js",
   "keywords": [
