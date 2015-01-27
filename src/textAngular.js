@@ -416,7 +416,7 @@ angular.module('textAngular.DOM', ['textAngular.factories'])
 							}
 						} else if (tagName.match(BLOCKELEMENTS)) {
 							// if we get here then all the contents of the ta-bind are selected
-							_nodes = taSelection.getOnlySelectedElements();
+							_nodes = selection.getOnlySelectedElements();
 							if (_nodes.length === 0) {
 								// here is if there is only text in ta-bind ie <div ta-bind>test content</div>
 								$target = angular.element('<' + selfTag + '><li>' + selectedElement.innerHTML + '</li></' + selfTag + '>');
